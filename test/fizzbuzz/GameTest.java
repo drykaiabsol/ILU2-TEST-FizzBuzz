@@ -45,4 +45,13 @@ class GameTest {
 			game.next();
 		}
 	}
+	
+	@Test
+	void someValues() {
+		preshot(6);
+		assertEquals("7", game.next());
+		assertEquals("8", game.next());
+		preshot(2);
+		assertEquals("11", game.next());
+	}
 }

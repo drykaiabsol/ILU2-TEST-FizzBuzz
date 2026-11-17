@@ -20,3 +20,14 @@
 - Les 30 premiers coups doivent produire une partie qui ressemble à : 
 - “1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz, 16, 17,
 - Fizz, 19, Buzz, Fizz, 22, 23, Fizz, Buzz, 26, Fizz, 28, 29, FizzBuzz”     → ITER 9 
+
+### Backlog :
+- [] ITER1
+- [] ITER2
+- [] ITER3
+- [] ITER4
+- [] ITER5
+- [] ITER6
+- [] ITER7
+- [] ITER8
+- [] ITER9

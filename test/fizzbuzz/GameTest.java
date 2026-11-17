@@ -54,4 +54,14 @@ class GameTest {
 		preshot(2);
 		assertEquals("11", game.next());
 	}
+	
+	@Test
+	void someMoreFizz() {
+		preshot(5);
+		assertEquals("Fizz", game.next());//6
+		preshot(5);
+		assertEquals("Fizz", game.next());//12
+		preshot(2);
+		assertEquals("Fizz", game.next());//15
+	}
 }

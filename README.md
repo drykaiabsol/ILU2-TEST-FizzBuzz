@@ -28,6 +28,6 @@
 - [X] ITER4 -> Le 4e doit répondre “4”
 - [X] ITER5 -> Le 5e doit répondre “Buzz”
 - [X] ITER6 -> Le 7e, 8e, 11e doivent répondre “7” “8” “11”
-- [] ITER7 -> Le 10e, 20e, 50e doivent répondre “Buzz”
+- [X] ITER7 -> Le 10e, 20e, 50e doivent répondre “Buzz”
 - [] ITER8 -> Le 15e doit répondre “FizzBuzz”
 - [] ITER9 -> “1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz, 16, 17, Fizz, 19, Buzz, Fizz, 22, 23, Fizz, Buzz, 26, Fizz, 28, 29, FizzBuzz”

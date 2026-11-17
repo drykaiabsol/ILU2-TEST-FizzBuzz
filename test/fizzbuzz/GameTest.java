@@ -28,4 +28,15 @@ class GameTest {
 		game.next();
 		assertEquals("Fizz", game.next());
 	}
+	
+	@Test
+	void fourthTest() {
+		preshot(3);
+		assertEquals("4", game.next());
+	}
+	private void preshot(int nbRounds) {
+		for (int i = 0; i < nbRounds; i++) {
+			game.next();		
+		}
+	}
 }

@@ -26,7 +26,7 @@
 - [X] ITER2 -> Le second doit répondre “2”
 - [X] ITER3 -> Le troisième doit répondre “Fizz”
 - [X] ITER4 -> Le 4e doit répondre “4”
-- [] ITER5 -> Le 5e doit répondre “Buzz”
+- [X] ITER5 -> Le 5e doit répondre “Buzz”
 - [] ITER6 -> Le 7e, 8e, 11e doivent répondre “7” “8” “11”
 - [] ITER7 -> Le 10e, 20e, 50e doivent répondre “Buzz”
 - [] ITER8 -> Le 15e doit répondre “FizzBuzz”

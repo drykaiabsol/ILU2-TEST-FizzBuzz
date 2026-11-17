@@ -40,11 +40,6 @@ class GameTest {
 		preshot(4);
 		assertEquals("Buzz", game.next());
 	}
-	private void preshot(int nbRounds) {
-		for (int i = 0; i < nbRounds; i++) {
-			game.next();
-		}
-	}
 	
 	@Test
 	void someValues() {
@@ -76,4 +71,19 @@ class GameTest {
 		preshot(14);
 		assertEquals("FizzBuzz", game.next());//15
 	}
+	
+	@Test
+	void aFullGame() {
+		String expected = "1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz, 16, 17, Fizz, 19, Buzz, Fizz, 22, 23, Fizz, Buzz, 26, Fizz, 28, 29, FizzBuzz";
+		assertEquals(expected, preshot(30));
+	}
+	
+	private String preshot(int nbRounds) {
+		StringBuilder sb = new StringBuilder();
+		sb.append(game.next());
+		for ( int i = 1; i < nbRounds; i++) {
+			sb.append(", ");
+			sb.append(game.next());
+		}
+		return sb.toString().trim();	}
 }
